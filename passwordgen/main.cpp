@@ -13,7 +13,6 @@ char passwordf(int x)
 
 int main(){
   srand(time(0));
- // testing git 
 
   for(int i=32; i<=126; i++)   
         in>>characters[i];
@@ -32,7 +31,6 @@ int main(){
         if (paslen > 15 && paslen < 25)
             ok=true; 
     }
-    // nothing to do with the password, just printing it
     cout<<passwordf(paslen);
     
 }
